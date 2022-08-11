@@ -1,0 +1,141 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.block {
+border: 1px solid #F2F3F4;
+width: 20%;
+padding: 30px;
+border-radius: 15px;
+}
+
+#block__Interface {
+ padding: 11px 20px;
+ border-radius: 20px;
+ color: #877EF0;
+ background-color: #EFEEFF;
+ border: 0px;
+ font-weight: bold;
+}
+
+.block__flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+.block__flex-icon{
+    display: flex;
+    align-items: center;
+
+}
+
+.circle__icon-white {
+    position: absolute;
+    left: -65px;
+    top: -15px;
+    z-index: 1;
+    border-radius:50%;
+    height:25px;
+    width:25px;
+    background-color:#FFEDEF;
+  }
+  .circle__icon-red {
+    position: absolute;
+    left: -30px;
+    top: -15px;
+    bottom:0px;
+    z-index: 3;
+    border-radius:50%;
+    height:25px;
+    width:25px;
+    background-color:#FC909F;
+  }
+  .circle__icon-blue {
+    position: absolute;
+    left: -50px;
+    top: -15px;
+    z-index: 2;
+    border-radius:50%;
+    height:25px;
+    width:25px;
+    background-color:#D2EFF3;
+  }
+
+#block__Invite {
+    padding: 11px 20px;
+    border-radius: 20px;
+    color: #EDF5FF;
+    background-color: #54A0FF;
+    border: 0px;
+}
+
+.absolute {
+    position:absolute;
+}
+
+.circle__icon-black {
+    border-radius:50%;
+    height:16px;
+    width:16px;
+    background-color:#454956;
+}
+
+.block__flex-pictos {
+    display:flex;
+    padding-left: 20px;
+
+}
+
+.button-pictos {
+    padding-bottom: 11px;
+    padding-top: 11px;
+    border-radius: 20px;
+    color: #EDF5FF;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDCDE;
+    width: 100%;
+    color: black;
+}
+
+span {
+    padding-left: 10px;
+   color: #2C3040;
+    font-size: 14px;
+}
+
+.block__span-comment {
+     padding-right: 20px;
+}
+
+.block_flex-p {
+    display: flex;
+    align-items: center;
+}
+
+.circle__icon {
+    border-radius:50%;
+    height:20px;
+    width:20px;
+    background-color:#454956;
+    margin-right:10px;
+}
+
+h1 {
+    color: #2C3040;
+}
+
+h1 + p , .circle__icon + p {
+    color: #6F727C;
+}
